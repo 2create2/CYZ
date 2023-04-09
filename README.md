@@ -9,7 +9,7 @@ to form your own one of a kind message, your way.”
 The "Why?":
 
 Other more common apps, are increacingly becomming 
-less secure and less trusted. CYZ is intended to fill that void,
+less secure and less trusted. CYZ attempts to fill that void,
 by putting the user in control.
 
 The "What?":
