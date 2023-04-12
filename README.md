@@ -27,9 +27,6 @@ Future features I think CYZ would benefit from:
 *Console/messages/prompts
 *testing
 
-How to use the project:
-
-
 
 Credits:
 
