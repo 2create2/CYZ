@@ -32,6 +32,16 @@ length of "text code" and convert it to an image.
 It is by no means secure. It is for example purposes.
 Please edit this if you want to send your own secure message.</i>
 
+<b>Community & Contact</b>
+
+Anyone can make proposals, discuss use-cases, and more. If you find a bug or or have suggestions, please raise a Github issue.
+You can also contact me at codeyourzero@proton.me
+
+<b>Contribute</b>
+
+The development is ongoing, suggestions are welcomed. Use pull requests and Community & Contact.
+If you see a bug or have a suggestion, please use the Github Issues tab.
+
 <b>Credits:</b>
 
 Special thanks to <b>John Elder</b> from <i>Codemy.com</i> (many hours spent, sometimes 
