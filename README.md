@@ -19,7 +19,7 @@ length of "text code" and convert it to an image.
 
 <b>Future features I think CYZ would benefit from:</b>
 
-<p>*Code generator utility/templates</p>
+<p><s>*Code generator utility</s>/templates &#9989;</p>
 <p>*Menu</p>
 <p>*Custom Virtual keyboard with key bindings</p>
 <p>*Customisable background and better visual representation</p>
