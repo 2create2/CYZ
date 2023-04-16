@@ -26,6 +26,7 @@ from tkinter import messagebox
 from tkinter import filedialog
 #temp code for use:
 from temp import sq_8192
+from temp_1 import gen_code
 
 root = Tk()
 root.config(bg = 'grey')
@@ -54,106 +55,106 @@ ztext8a =  []
 ztext9a =  []
 ztext10a = []
 
-ztext1= sq_8192[0:5]
-ztext2=sq_8192[5:10]
-ztext3=sq_8192[10:15]
-ztext4=sq_8192[15:20]
-ztext5=sq_8192[20:25]
-ztext6=sq_8192[25:30]
-ztext7=sq_8192[30:35]
-ztext8=sq_8192[35:40]
-ztext9=sq_8192[40:45]
-ztext10=sq_8192[45:50]
-ztext11=sq_8192[50:55]
-ztext12=sq_8192[55:60]
-ztext13=sq_8192[60:65]
-ztext14=sq_8192[65:70]
-ztext15=sq_8192[70:75]
-ztext16=sq_8192[75:80]
-ztext17=sq_8192[80:85]
-ztext18=sq_8192[85:90]
-ztext19=sq_8192[90:95]
-ztext20=sq_8192[95:100]
-ztext21=sq_8192[100:105]
-ztext22=sq_8192[105:110]
-ztext23=sq_8192[110:115]
-ztext24=sq_8192[115:120]
-ztext25=sq_8192[120:125]
-ztext26=sq_8192[125:130]
-ztext27=sq_8192[130:135]
-ztext28=sq_8192[135:140]
-ztext29=sq_8192[140:145]
-ztext30=sq_8192[145:150]
-ztext31=sq_8192[150:155]
-ztext32=sq_8192[155:160]
-ztext33=sq_8192[160:165]
-ztext34=sq_8192[165:170]
-ztext35=sq_8192[170:175]
-ztext36=sq_8192[175:180]
-ztext37=sq_8192[180:185]
-ztext38=sq_8192[185:190]
-ztext39=sq_8192[190:195]
-ztext40=sq_8192[195:200]
-ztext41=sq_8192[200:205]
-ztext42=sq_8192[205:210]
-ztext43=sq_8192[210:215]
-ztext44=sq_8192[215:220]
-ztext45=sq_8192[220:225]
-ztext46=sq_8192[225:230]
-ztext47=sq_8192[230:235]
-ztext48=sq_8192[235:240]
-ztext49=sq_8192[240:245]
-ztext50=sq_8192[245:250]
-ztext51=sq_8192[250:255]
-ztext52=sq_8192[255:260]
-ztext53=sq_8192[260:265]
-ztext54=sq_8192[265:270]
-ztext55=sq_8192[270:275]
-ztext56=sq_8192[275:280]
-ztext57=sq_8192[280:285]
-ztext58=sq_8192[285:290]
-ztext59=sq_8192[290:295]
-ztext60=sq_8192[295:300]
-ztext61=sq_8192[300:305]
-ztext62=sq_8192[305:310]
-ztext63=sq_8192[310:315]
-ztext64=sq_8192[315:320]
-ztext65=sq_8192[320:325]
-ztext66=sq_8192[325:330]
-ztext67=sq_8192[330:335]
-ztext68=sq_8192[335:340]
-ztext69=sq_8192[340:345]
-ztext70=sq_8192[345:350]
-ztext71=sq_8192[350:355]
-ztext72=sq_8192[355:360]
-ztext73=sq_8192[360:365]
-ztext74=sq_8192[365:370]
-ztext75=sq_8192[370:375]
-ztext76=sq_8192[375:380]
-ztext77=sq_8192[380:385]
-ztext78=sq_8192[385:390]
-ztext79=sq_8192[390:395]
-ztext80=sq_8192[395:400]
-ztext81=sq_8192[400:405]
-ztext82=sq_8192[405:410]
-ztext83=sq_8192[410:415]
-ztext84=sq_8192[415:420]
-ztext85=sq_8192[420:425]
-ztext86=sq_8192[425:430]
-ztext87=sq_8192[430:435]
-ztext88=sq_8192[435:440]
-ztext89=sq_8192[440:445]
-ztext90=sq_8192[445:450]
-ztext91=sq_8192[450:455]
-ztext92=sq_8192[455:460]
-ztext93=sq_8192[460:465]
-ztext94=sq_8192[465:470]
-ztext95=sq_8192[470:475]
-ztext96=sq_8192[475:480]
-ztext97=sq_8192[480:485]
-ztext98=sq_8192[485:490]
-ztext99=sq_8192[490:495]
-ztext100=sq_8192[495:500]
+ztext1= gen_code[0:5]
+ztext2=gen_code[5:10]
+ztext3=gen_code[10:15]
+ztext4=gen_code[15:20]
+ztext5=gen_code[20:25]
+ztext6=gen_code[25:30]
+ztext7=gen_code[30:35]
+ztext8=gen_code[35:40]
+ztext9=gen_code[40:45]
+ztext10=gen_code[45:50]
+ztext11=gen_code[50:55]
+ztext12=gen_code[55:60]
+ztext13=gen_code[60:65]
+ztext14=gen_code[65:70]
+ztext15=gen_code[70:75]
+ztext16=gen_code[75:80]
+ztext17=gen_code[80:85]
+ztext18=gen_code[85:90]
+ztext19=gen_code[90:95]
+ztext20=gen_code[95:100]
+ztext21=gen_code[100:105]
+ztext22=gen_code[105:110]
+ztext23=gen_code[110:115]
+ztext24=gen_code[115:120]
+ztext25=gen_code[120:125]
+ztext26=gen_code[125:130]
+ztext27=gen_code[130:135]
+ztext28=gen_code[135:140]
+ztext29=gen_code[140:145]
+ztext30=gen_code[145:150]
+ztext31=gen_code[150:155]
+ztext32=gen_code[155:160]
+ztext33=gen_code[160:165]
+ztext34=gen_code[165:170]
+ztext35=gen_code[170:175]
+ztext36=gen_code[175:180]
+ztext37=gen_code[180:185]
+ztext38=gen_code[185:190]
+ztext39=gen_code[190:195]
+ztext40=gen_code[195:200]
+ztext41=gen_code[200:205]
+ztext42=gen_code[205:210]
+ztext43=gen_code[210:215]
+ztext44=gen_code[215:220]
+ztext45=gen_code[220:225]
+ztext46=gen_code[225:230]
+ztext47=gen_code[230:235]
+ztext48=gen_code[235:240]
+ztext49=gen_code[240:245]
+ztext50=gen_code[245:250]
+ztext51=gen_code[250:255]
+ztext52=gen_code[255:260]
+ztext53=gen_code[260:265]
+ztext54=gen_code[265:270]
+ztext55=gen_code[270:275]
+ztext56=gen_code[275:280]
+ztext57=gen_code[280:285]
+ztext58=gen_code[285:290]
+ztext59=gen_code[290:295]
+ztext60=gen_code[295:300]
+ztext61=gen_code[300:305]
+ztext62=gen_code[305:310]
+ztext63=gen_code[310:315]
+ztext64=gen_code[315:320]
+ztext65=gen_code[320:325]
+ztext66=gen_code[325:330]
+ztext67=gen_code[330:335]
+ztext68=gen_code[335:340]
+ztext69=gen_code[340:345]
+ztext70=gen_code[345:350]
+ztext71=gen_code[350:355]
+ztext72=gen_code[355:360]
+ztext73=gen_code[360:365]
+ztext74=gen_code[365:370]
+ztext75=gen_code[370:375]
+ztext76=gen_code[375:380]
+ztext77=gen_code[380:385]
+ztext78=gen_code[385:390]
+ztext79=gen_code[390:395]
+ztext80=gen_code[395:400]
+ztext81=gen_code[400:405]
+ztext82=gen_code[405:410]
+ztext83=gen_code[410:415]
+ztext84=gen_code[415:420]
+ztext85=gen_code[420:425]
+ztext86=gen_code[425:430]
+ztext87=gen_code[430:435]
+ztext88=gen_code[435:440]
+ztext89=gen_code[440:445]
+ztext90=gen_code[445:450]
+ztext91=gen_code[450:455]
+ztext92=gen_code[455:460]
+ztext93=gen_code[460:465]
+ztext94=gen_code[465:470]
+ztext95=gen_code[470:475]
+ztext96=gen_code[475:480]
+ztext97=gen_code[480:485]
+ztext98=gen_code[485:490]
+ztext99=gen_code[490:495]
+ztext100=gen_code[495:500]
 
 #empty lists
 
@@ -4386,440 +4387,437 @@ def ztext_change():
 	ent_1.delete(0,END)
 
 	ztext1.clear()
-	ztext1[0:5] = sq_8192[500:505]
+	ztext1[0:5] = gen_code[500:505]
 	ent_1.insert(END,ztext1[0])
 
 	ztext2.clear()
-	ztext2[0:5] = sq_8192[505:510]
+	ztext2[0:5] = gen_code[505:510]
 	ent_1.insert(END, ztext2[0])
 
 	ztext3.clear()
-	ztext3[0:5] = sq_8192[510:515]
+	ztext3[0:5] = gen_code[510:515]
 	ent_1.insert(END, ztext3[0])
 
 	ztext4.clear()
-	ztext4[0:5] = sq_8192[515:520]
+	ztext4[0:5] = gen_code[515:520]
 	ent_1.insert(END, ztext4[0])
 
 	ztext5.clear()
-	ztext5[0:5] = sq_8192[520:525]
+	ztext5[0:5] = gen_code[520:525]
 	ent_1.insert(END, ztext5[0])
 
 	ztext6.clear()
-	ztext6[0:5] = sq_8192[525:530]
+	ztext6[0:5] = gen_code[525:530]
 	ent_1.insert(END, ztext6[0])
 
 	ztext7.clear()
-	ztext7[0:5] = sq_8192[530:535]
+	ztext7[0:5] = gen_code[530:535]
 	ent_1.insert(END, ztext7[0])
 
 	ztext8.clear()
-	ztext8[0:5] = sq_8192[535:540]
+	ztext8[0:5] = gen_code[535:540]
 	ent_1.insert(END, ztext8[0])
 
 	ztext9.clear()
-	ztext9[0:5] = sq_8192[540:545]
+	ztext9[0:5] = gen_code[540:545]
 	ent_1.insert(END, ztext9[0])
 
 	ztext10.clear()
-	ztext10[0:5] = sq_8192[545:550]
+	ztext10[0:5] = gen_code[545:550]
 	ent_1.insert(END, ztext10[0])
 
 #row2
 	ent_2.delete(0,END)
 
 	ztext11.clear()
-	ztext11[0:5] = sq_8192[550:555]
+	ztext11[0:5] = gen_code[550:555]
 	ent_2.insert(END,ztext11[0])
 
 	ztext12.clear()
-	ztext12[0:5] = sq_8192[555:560]
+	ztext12[0:5] = gen_code[555:560]
 	ent_2.insert(END, ztext12[0])
 
 	ztext13.clear()
-	ztext13[0:5] = sq_8192[560:565]
+	ztext13[0:5] = gen_code[560:565]
 	ent_2.insert(END, ztext13[0])
 
 	ztext14.clear()
-	ztext14[0:5] = sq_8192[565:570]
+	ztext14[0:5] = gen_code[565:570]
 	ent_2.insert(END, ztext14[0])
 
 	ztext15.clear()
-	ztext15[0:5] = sq_8192[570:575]
+	ztext15[0:5] = gen_code[570:575]
 	ent_2.insert(END, ztext15[0])
 
 	ztext16.clear()
-	ztext16[0:5] = sq_8192[575:580]
+	ztext16[0:5] = gen_code[575:580]
 	ent_2.insert(END, ztext16[0])
 
 	ztext17.clear()
-	ztext17[0:5] = sq_8192[580:585]
+	ztext17[0:5] = gen_code[580:585]
 	ent_2.insert(END, ztext17[0])
 
 	ztext18.clear()
-	ztext18[0:5] = sq_8192[585:590]
+	ztext18[0:5] = gen_code[585:590]
 	ent_2.insert(END, ztext18[0])
 
 	ztext19.clear()
-	ztext19[0:5] = sq_8192[590:595]
+	ztext19[0:5] = gen_code[590:595]
 	ent_2.insert(END, ztext19[0])
 
 	ztext20.clear()
-	ztext20[0:5] = sq_8192[595:600]
+	ztext20[0:5] = gen_code[595:600]
 	ent_2.insert(END, ztext20[0])
 
 	ent_3.delete(0,END)
 
 	ztext21.clear()
-	ztext21[0:5] = sq_8192[600:605]
+	ztext21[0:5] = gen_code[600:605]
 	ent_3.insert(END,ztext21[0])
 
 	ztext22.clear()
-	ztext22[0:5] = sq_8192[605:610]
+	ztext22[0:5] = gen_code[605:610]
 	ent_3.insert(END, ztext22[0])
 
 	ztext23.clear()
-	ztext23[0:5] = sq_8192[610:615]
+	ztext23[0:5] = gen_code[610:615]
 	ent_3.insert(END, ztext23[0])
 
 	ztext24.clear()
-	ztext24[0:5] = sq_8192[615:620]
+	ztext24[0:5] = gen_code[615:620]
 	ent_3.insert(END, ztext24[0])
 
 	ztext25.clear()
-	ztext25[0:5] = sq_8192[620:625]
+	ztext25[0:5] = gen_code[620:625]
 	ent_3.insert(END, ztext25[0])
 
 	ztext26.clear()
-	ztext26[0:5] = sq_8192[625:630]
+	ztext26[0:5] = gen_code[625:630]
 	ent_3.insert(END, ztext26[0])
 
 	ztext27.clear()
-	ztext27[0:5] = sq_8192[630:635]
+	ztext27[0:5] = gen_code[630:635]
 	ent_3.insert(END, ztext27[0])
 
 	ztext28.clear()
-	ztext28[0:5] = sq_8192[635:640]
+	ztext28[0:5] = gen_code[635:640]
 	ent_3.insert(END, ztext28[0])
 
 	ztext29.clear()
-	ztext29[0:5] = sq_8192[640:645]
+	ztext29[0:5] = gen_code[640:645]
 	ent_3.insert(END, ztext29[0])
 
 	ztext30.clear()
-	ztext30[0:5] = sq_8192[645:650]
+	ztext30[0:5] = gen_code[645:650]
 	ent_3.insert(END, ztext30[0])
 
 	ent_4.delete(0,END)
 
 	ztext31.clear()
-	ztext31[0:5] = sq_8192[650:655]
+	ztext31[0:5] = gen_code[650:655]
 	ent_4.insert(END,ztext31[0])
 
 	ztext32.clear()
-	ztext32[0:5] = sq_8192[655:660]
+	ztext32[0:5] = gen_code[655:660]
 	ent_4.insert(END, ztext32[0])
 
 	ztext33.clear()
-	ztext33[0:5] = sq_8192[660:665]
+	ztext33[0:5] = gen_code[660:665]
 	ent_4.insert(END, ztext33[0])
 
 	ztext34.clear()
-	ztext34[0:5] = sq_8192[665:670]
+	ztext34[0:5] = gen_code[665:670]
 	ent_4.insert(END, ztext34[0])
 
 	ztext35.clear()
-	ztext35[0:5] = sq_8192[670:675]
+	ztext35[0:5] = gen_code[670:675]
 	ent_4.insert(END, ztext35[0])
 
 	ztext36.clear()
-	ztext36[0:5] = sq_8192[675:680]
+	ztext36[0:5] = gen_code[675:680]
 	ent_4.insert(END, ztext36[0])
 
 	ztext37.clear()
-	ztext37[0:5] = sq_8192[680:685]
+	ztext37[0:5] = gen_code[680:685]
 	ent_4.insert(END, ztext37[0])
 
 	ztext38.clear()
-	ztext38[0:5] = sq_8192[685:690]
+	ztext38[0:5] = gen_code[685:690]
 	ent_4.insert(END, ztext38[0])
 
 	ztext39.clear()
-	ztext39[0:5] = sq_8192[690:695]
+	ztext39[0:5] = gen_code[690:695]
 	ent_4.insert(END, ztext39[0])
 
 	ztext40.clear()
-	ztext40[0:5] = sq_8192[695:700]
+	ztext40[0:5] = gen_code[695:700]
 	ent_4.insert(END, ztext40[0])
 
 	ent_5.delete(0,END)
 
 	ztext41.clear()
-	ztext41[0:5] = sq_8192[700:705]
+	ztext41[0:5] = gen_code[700:705]
 	ent_5.insert(END,ztext41[0])
 
 	ztext42.clear()
-	ztext42[0:5] = sq_8192[705:710]
+	ztext42[0:5] = gen_code[705:710]
 	ent_5.insert(END, ztext42[0])
 
 	ztext43.clear()
-	ztext43[0:5] = sq_8192[710:715]
+	ztext43[0:5] = gen_code[710:715]
 	ent_5.insert(END, ztext43[0])
 
 	ztext44.clear()
-	ztext44[0:5] = sq_8192[715:720]
+	ztext44[0:5] = gen_code[715:720]
 	ent_5.insert(END, ztext44[0])
 
 	ztext45.clear()
-	ztext45[0:5] = sq_8192[720:725]
+	ztext45[0:5] = gen_code[720:725]
 	ent_5.insert(END, ztext45[0])
 
 	ztext46.clear()
-	ztext46[0:5] = sq_8192[725:730]
+	ztext46[0:5] = gen_code[725:730]
 	ent_5.insert(END, ztext46[0])
 
 	ztext47.clear()
-	ztext47[0:5] = sq_8192[730:735]
+	ztext47[0:5] = gen_code[730:735]
 	ent_5.insert(END, ztext47[0])
 
 	ztext48.clear()
-	ztext48[0:5] = sq_8192[735:740]
+	ztext48[0:5] = gen_code[735:740]
 	ent_5.insert(END, ztext48[0])
 
 	ztext49.clear()
-	ztext49[0:5] = sq_8192[740:745]
+	ztext49[0:5] = gen_code[740:745]
 	ent_5.insert(END, ztext49[0])
 
 	ztext50.clear()
-	ztext50[0:5] = sq_8192[745:750]
+	ztext50[0:5] = gen_code[745:750]
 	ent_5.insert(END, ztext50[0])
 
 	ent_6.delete(0,END)
 
 	ztext51.clear()
-	ztext51[0:5] = sq_8192[750:755]
+	ztext51[0:5] = gen_code[750:755]
 	ent_6.insert(END,ztext51[0])
 
 	ztext52.clear()
-	ztext52[0:5] = sq_8192[755:760]
+	ztext52[0:5] = gen_code[755:760]
 	ent_6.insert(END, ztext52[0])
 
 	ztext53.clear()
-	ztext53[0:5] = sq_8192[760:765]
+	ztext53[0:5] = gen_code[760:765]
 	ent_6.insert(END, ztext53[0])
 
 	ztext54.clear()
-	ztext54[0:5] = sq_8192[765:770]
+	ztext54[0:5] = gen_code[765:770]
 	ent_6.insert(END, ztext54[0])
 
 	ztext55.clear()
-	ztext55[0:5] = sq_8192[770:775]
+	ztext55[0:5] = gen_code[770:775]
 	ent_6.insert(END, ztext55[0])
 
 	ztext56.clear()
-	ztext56[0:5] = sq_8192[775:780]
+	ztext56[0:5] = gen_code[775:780]
 	ent_6.insert(END, ztext56[0])
 
 	ztext57.clear()
-	ztext57[0:5] = sq_8192[780:785]
+	ztext57[0:5] = gen_code[780:785]
 	ent_6.insert(END, ztext57[0])
 
 	ztext58.clear()
-	ztext58[0:5] = sq_8192[785:790]
+	ztext58[0:5] = gen_code[785:790]
 	ent_6.insert(END, ztext58[0])
 
 	ztext59.clear()
-	ztext59[0:5] = sq_8192[790:795]
+	ztext59[0:5] = gen_code[790:795]
 	ent_6.insert(END, ztext59[0])
 
 	ztext60.clear()
-	ztext60[0:5] = sq_8192[795:800]
+	ztext60[0:5] = gen_code[795:800]
 	ent_6.insert(END, ztext60[0])
 
 	ent_7.delete(0,END)
 
 	ztext61.clear()
-	ztext61[0:5] = sq_8192[800:805]
+	ztext61[0:5] = gen_code[800:805]
 	ent_7.insert(END,ztext61[0])
 
 	ztext62.clear()
-	ztext62[0:5] = sq_8192[805:810]
+	ztext62[0:5] = gen_code[805:810]
 	ent_7.insert(END, ztext62[0])
 
 	ztext63.clear()
-	ztext63[0:5] = sq_8192[810:815]
+	ztext63[0:5] = gen_code[810:815]
 	ent_7.insert(END, ztext63[0])
 
 	ztext64.clear()
-	ztext64[0:5] = sq_8192[815:820]
+	ztext64[0:5] = gen_code[815:820]
 	ent_7.insert(END, ztext64[0])
 
 	ztext65.clear()
-	ztext65[0:5] = sq_8192[820:825]
+	ztext65[0:5] = gen_code[820:825]
 	ent_7.insert(END, ztext65[0])
 
 	ztext66.clear()
-	ztext66[0:5] = sq_8192[825:830]
+	ztext66[0:5] = gen_code[825:830]
 	ent_7.insert(END, ztext66[0])
 
 	ztext67.clear()
-	ztext67[0:5] = sq_8192[830:835]
+	ztext67[0:5] = gen_code[830:835]
 	ent_7.insert(END, ztext67[0])
 
 	ztext68.clear()
-	ztext68[0:5] = sq_8192[835:840]
+	ztext68[0:5] = gen_code[835:840]
 	ent_7.insert(END, ztext68[0])
 
 	ztext69.clear()
-	ztext69[0:5] = sq_8192[840:845]
+	ztext69[0:5] = gen_code[840:845]
 	ent_7.insert(END, ztext69[0])
 
 	ztext70.clear()
-	ztext70[0:5] = sq_8192[845:850]
+	ztext70[0:5] = gen_code[845:850]
 	ent_7.insert(END, ztext70[0])
 
 	ent_8.delete(0,END)
 
 	ztext71.clear()
-	ztext71[0:5] = sq_8192[850:855]
+	ztext71[0:5] = gen_code[850:855]
 	ent_8.insert(END,ztext71[0])
 
 	ztext72.clear()
-	ztext72[0:5] = sq_8192[855:860]
+	ztext72[0:5] = gen_code[855:860]
 	ent_8.insert(END, ztext72[0])
 
 	ztext73.clear()
-	ztext73[0:5] = sq_8192[860:865]
+	ztext73[0:5] = gen_code[860:865]
 	ent_8.insert(END, ztext73[0])
 
 	ztext74.clear()
-	ztext74[0:5] = sq_8192[865:870]
+	ztext74[0:5] = gen_code[865:870]
 	ent_8.insert(END, ztext74[0])
 
 	ztext75.clear()
-	ztext75[0:5] = sq_8192[870:875]
+	ztext75[0:5] = gen_code[870:875]
 	ent_8.insert(END, ztext75[0])
 
 	ztext76.clear()
-	ztext76[0:5] = sq_8192[875:880]
+	ztext76[0:5] = gen_code[875:880]
 	ent_8.insert(END, ztext76[0])
 
 	ztext77.clear()
-	ztext77[0:5] = sq_8192[880:885]
+	ztext77[0:5] = gen_code[880:885]
 	ent_8.insert(END, ztext77[0])
 
 	ztext78.clear()
-	ztext78[0:5] = sq_8192[885:890]
+	ztext78[0:5] = gen_code[885:890]
 	ent_8.insert(END, ztext78[0])
 
 	ztext79.clear()
-	ztext79[0:5] = sq_8192[890:895]
+	ztext79[0:5] = gen_code[890:895]
 	ent_8.insert(END, ztext79[0])
 
 	ztext80.clear()
-	ztext80[0:5] = sq_8192[895:900]
+	ztext80[0:5] = gen_code[895:900]
 	ent_8.insert(END, ztext80[0])
 
 	ent_9.delete(0,END)
 
 	ztext81.clear()
-	ztext81[0:5] = sq_8192[900:905]
+	ztext81[0:5] = gen_code[900:905]
 	ent_9.insert(END,ztext81[0])
 
 	ztext82.clear()
-	ztext82[0:5] = sq_8192[905:910]
+	ztext82[0:5] = gen_code[905:910]
 	ent_9.insert(END, ztext82[0])
 
 	ztext83.clear()
-	ztext83[0:5] = sq_8192[910:915]
+	ztext83[0:5] = gen_code[910:915]
 	ent_9.insert(END, ztext83[0])
 
 	ztext84.clear()
-	ztext84[0:5] = sq_8192[915:920]
+	ztext84[0:5] = gen_code[915:920]
 	ent_9.insert(END, ztext84[0])
 
 	ztext85.clear()
-	ztext85[0:5] = sq_8192[920:925]
+	ztext85[0:5] = gen_code[920:925]
 	ent_9.insert(END, ztext85[0])
 
 	ztext86.clear()
-	ztext86[0:5] = sq_8192[925:930]
+	ztext86[0:5] = gen_code[925:930]
 	ent_9.insert(END, ztext86[0])
 
 	ztext87.clear()
-	ztext87[0:5] = sq_8192[930:935]
+	ztext87[0:5] = gen_code[930:935]
 	ent_9.insert(END, ztext87[0])
 
 	ztext88.clear()
-	ztext88[0:5] = sq_8192[935:940]
+	ztext88[0:5] = gen_code[935:940]
 	ent_9.insert(END, ztext88[0])
 
 	ztext89.clear()
-	ztext89[0:5] = sq_8192[940:945]
+	ztext89[0:5] = gen_code[940:945]
 	ent_9.insert(END, ztext89[0])
 
 	ztext90.clear()
-	ztext90[0:5] = sq_8192[945:950]
+	ztext90[0:5] = gen_code[945:950]
 	ent_9.insert(END, ztext90[0])
 
 	ent_10.delete(0,END)
 
 	ztext91.clear()
-	ztext91[0:5] = sq_8192[950:955]
+	ztext91[0:5] = gen_code[950:955]
 	ent_10.insert(END,ztext91[0])
 
 	ztext92.clear()
-	ztext92[0:5] = sq_8192[955:960]
+	ztext92[0:5] = gen_code[955:960]
 	ent_10.insert(END, ztext92[0])
 
 	ztext93.clear()
-	ztext93[0:5] = sq_8192[960:965]
+	ztext93[0:5] = gen_code[960:965]
 	ent_10.insert(END, ztext93[0])
 
 	ztext94.clear()
-	ztext94[0:5] = sq_8192[965:970]
+	ztext94[0:5] = gen_code[965:970]
 	ent_10.insert(END, ztext94[0])
 
 	ztext95.clear()
-	ztext95[0:5] = sq_8192[970:975]
+	ztext95[0:5] = gen_code[970:975]
 	ent_10.insert(END, ztext95[0])
 
 	ztext96.clear()
-	ztext96[0:5] = sq_8192[975:980]
+	ztext96[0:5] = gen_code[975:980]
 	ent_10.insert(END, ztext96[0])
 
 	ztext97.clear()
-	ztext97[0:5] = sq_8192[980:985]
+	ztext97[0:5] = gen_code[980:985]
 	ent_10.insert(END, ztext97[0])
 
 	ztext98.clear()
-	ztext98[0:5] = sq_8192[985:990]
+	ztext98[0:5] = gen_code[985:990]
 	ent_10.insert(END, ztext98[0])
 
 	ztext99.clear()
-	ztext99[0:5] = sq_8192[990:995]
+	ztext99[0:5] = gen_code[990:995]
 	ent_10.insert(END, ztext99[0])
 
 	ztext100.clear()
-	ztext100[0:5] = sq_8192[995:1000]
+	ztext100[0:5] = gen_code[995:1000]
 	ent_10.insert(END, ztext100[0])
 
 	#put in the new entries__________________________________________________
 	random_entries1()
 	#________________________________________________________________________
 
-	del sq_8192[500:1000]
-	print(len(sq_8192))
+	del gen_code[500:1000]
+	print(len(gen_code))
 	#messages to show beginning and nearing end via label config
-	if len(sq_8192) == 40460:
-		lab_0.config(text = 'Welcome to Code Your Zero!',bg = 'black', fg = 'green')
-	if len(sq_8192) == 35960:
-		lab_0.config(text = '',bg = 'black', fg = 'green')
-	if len(sq_8192) == 1960:
+
+	if len(gen_code) == 1500:
 		lab_0.config(text = 'nearing end of message: 2 left!',bg = 'black', fg = 'green')
-	if len(sq_8192) == 1460:
+	if len(gen_code) == 1000:
 		lab_0.config(text = 'nearing end: 1 left!',bg = 'black', fg = 'green')
-	if len(sq_8192) == 960:
+	if len(gen_code) == 500:
 		lab_0.config(text = '0 left, save text now!***', bg = 'red', fg = 'black')
 		return
 
