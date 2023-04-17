@@ -245,7 +245,7 @@ def mk_random():
     ee9.insert(0, str(random.choice(sq_8192)))
     ee10.delete(0, END)
     ee10.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee11.delete(0, END)
     ee11.insert(0, str(random.choice(sq_8192)))
     ee12.delete(0, END)
@@ -266,7 +266,7 @@ def mk_random():
     ee19.insert(0, str(random.choice(sq_8192)))
     ee20.delete(0, END)
     ee20.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee21.delete(0, END)
     ee21.insert(0, str(random.choice(sq_8192)))
     ee22.delete(0, END)
@@ -287,7 +287,7 @@ def mk_random():
     ee29.insert(0, str(random.choice(sq_8192)))
     ee30.delete(0, END)
     ee30.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee31.delete(0, END)
     ee31.insert(0, str(random.choice(sq_8192)))
     ee32.delete(0, END)
@@ -308,7 +308,7 @@ def mk_random():
     ee39.insert(0, str(random.choice(sq_8192)))
     ee40.delete(0, END)
     ee40.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee41.delete(0, END)
     ee41.insert(0, str(random.choice(sq_8192)))
     ee42.delete(0, END)
@@ -329,7 +329,7 @@ def mk_random():
     ee49.insert(0, str(random.choice(sq_8192)))
     ee50.delete(0, END)
     ee50.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee51.delete(0, END)
     ee51.insert(0, str(random.choice(sq_8192)))
     ee52.delete(0, END)
@@ -350,7 +350,7 @@ def mk_random():
     ee59.insert(0, str(random.choice(sq_8192)))
     ee60.delete(0, END)
     ee60.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee61.delete(0, END)
     ee61.insert(0, str(random.choice(sq_8192)))
     ee62.delete(0, END)
@@ -371,7 +371,7 @@ def mk_random():
     ee69.insert(0, str(random.choice(sq_8192)))
     ee70.delete(0, END)
     ee70.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee71.delete(0, END)
     ee71.insert(0, str(random.choice(sq_8192)))
     ee72.delete(0, END)
@@ -392,7 +392,7 @@ def mk_random():
     ee79.insert(0, str(random.choice(sq_8192)))
     ee80.delete(0, END)
     ee80.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee81.delete(0, END)
     ee81.insert(0, str(random.choice(sq_8192)))
     ee82.delete(0, END)
@@ -413,7 +413,7 @@ def mk_random():
     ee89.insert(0, str(random.choice(sq_8192)))
     ee90.delete(0, END)
     ee90.insert(0, str(random.choice(sq_8192)))
-    #
+#
     ee91.delete(0, END)
     ee91.insert(0, str(random.choice(sq_8192)))
     ee92.delete(0, END)
@@ -455,7 +455,7 @@ def mk_random():
     eee9.insert(0, str(random.choice(sq_8192)))
     eee10.delete(0, END)
     eee10.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee11.delete(0, END)
     eee11.insert(0, str(random.choice(sq_8192)))
     eee12.delete(0, END)
@@ -476,7 +476,7 @@ def mk_random():
     eee19.insert(0, str(random.choice(sq_8192)))
     eee20.delete(0, END)
     eee20.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee21.delete(0, END)
     eee21.insert(0, str(random.choice(sq_8192)))
     eee22.delete(0, END)
@@ -497,7 +497,7 @@ def mk_random():
     eee29.insert(0, str(random.choice(sq_8192)))
     eee30.delete(0, END)
     eee30.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee31.delete(0, END)
     eee31.insert(0, str(random.choice(sq_8192)))
     eee32.delete(0, END)
@@ -518,7 +518,7 @@ def mk_random():
     eee39.insert(0, str(random.choice(sq_8192)))
     eee40.delete(0, END)
     eee40.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee41.delete(0, END)
     eee41.insert(0, str(random.choice(sq_8192)))
     eee42.delete(0, END)
@@ -539,7 +539,7 @@ def mk_random():
     eee49.insert(0, str(random.choice(sq_8192)))
     eee50.delete(0, END)
     eee50.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee51.delete(0, END)
     eee51.insert(0, str(random.choice(sq_8192)))
     eee52.delete(0, END)
@@ -560,7 +560,7 @@ def mk_random():
     eee59.insert(0, str(random.choice(sq_8192)))
     eee60.delete(0, END)
     eee60.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee61.delete(0, END)
     eee61.insert(0, str(random.choice(sq_8192)))
     eee62.delete(0, END)
@@ -581,7 +581,7 @@ def mk_random():
     eee69.insert(0, str(random.choice(sq_8192)))
     eee70.delete(0, END)
     eee70.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee71.delete(0, END)
     eee71.insert(0, str(random.choice(sq_8192)))
     eee72.delete(0, END)
@@ -602,7 +602,7 @@ def mk_random():
     eee79.insert(0, str(random.choice(sq_8192)))
     eee80.delete(0, END)
     eee80.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee81.delete(0, END)
     eee81.insert(0, str(random.choice(sq_8192)))
     eee82.delete(0, END)
@@ -623,7 +623,7 @@ def mk_random():
     eee89.insert(0, str(random.choice(sq_8192)))
     eee90.delete(0, END)
     eee90.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eee91.delete(0, END)
     eee91.insert(0, str(random.choice(sq_8192)))
     eee92.delete(0, END)
@@ -642,8 +642,7 @@ def mk_random():
     eee98.insert(0, str(random.choice(sq_8192)))
     eee99.delete(0, END)
     eee99.insert(0, str(random.choice(sq_8192)))
-#70next
-#
+#70
     eeee0.delete(0, END)
     eeee0.insert(0, str(random.choice(sq_8192)))
     eeee1.delete(0, END)
@@ -666,7 +665,7 @@ def mk_random():
     eeee9.insert(0, str(random.choice(sq_8192)))
     eeee10.delete(0, END)
     eeee10.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee11.delete(0, END)
     eeee11.insert(0, str(random.choice(sq_8192)))
     eeee12.delete(0, END)
@@ -687,7 +686,7 @@ def mk_random():
     eeee19.insert(0, str(random.choice(sq_8192)))
     eeee20.delete(0, END)
     eeee20.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee21.delete(0, END)
     eeee21.insert(0, str(random.choice(sq_8192)))
     eeee22.delete(0, END)
@@ -708,7 +707,7 @@ def mk_random():
     eeee29.insert(0, str(random.choice(sq_8192)))
     eeee30.delete(0, END)
     eeee30.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee31.delete(0, END)
     eeee31.insert(0, str(random.choice(sq_8192)))
     eeee32.delete(0, END)
@@ -729,7 +728,7 @@ def mk_random():
     eeee39.insert(0, str(random.choice(sq_8192)))
     eeee40.delete(0, END)
     eeee40.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee41.delete(0, END)
     eeee41.insert(0, str(random.choice(sq_8192)))
     eeee42.delete(0, END)
@@ -750,7 +749,7 @@ def mk_random():
     eeee49.insert(0, str(random.choice(sq_8192)))
     eeee50.delete(0, END)
     eeee50.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee51.delete(0, END)
     eeee51.insert(0, str(random.choice(sq_8192)))
     eeee52.delete(0, END)
@@ -771,7 +770,7 @@ def mk_random():
     eeee59.insert(0, str(random.choice(sq_8192)))
     eeee60.delete(0, END)
     eeee60.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeee61.delete(0, END)
     eeee61.insert(0, str(random.choice(sq_8192)))
     eeee62.delete(0, END)
@@ -813,7 +812,7 @@ def mk_random():
     eeeee9.insert(0, str(random.choice(sq_8192)))
     eeeee10.delete(0, END)
     eeeee10.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeee11.delete(0, END)
     eeeee11.insert(0, str(random.choice(sq_8192)))
     eeeee12.delete(0, END)
@@ -834,7 +833,7 @@ def mk_random():
     eeeee19.insert(0, str(random.choice(sq_8192)))
     eeeee20.delete(0, END)
     eeeee20.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeee21.delete(0, END)
     eeeee21.insert(0, str(random.choice(sq_8192)))
     eeeee22.delete(0, END)
@@ -855,7 +854,7 @@ def mk_random():
     eeeee29.insert(0, str(random.choice(sq_8192)))
     eeeee30.delete(0, END)
     eeeee30.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeee31.delete(0, END)
     eeeee31.insert(0, str(random.choice(sq_8192)))
     eeeee32.delete(0, END)
@@ -876,7 +875,7 @@ def mk_random():
     eeeee39.insert(0, str(random.choice(sq_8192)))
     eeeee40.delete(0, END)
     eeeee40.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeee41.delete(0, END)
     eeeee41.insert(0, str(random.choice(sq_8192)))
     eeeee42.delete(0, END)
@@ -897,7 +896,7 @@ def mk_random():
     eeeee49.insert(0, str(random.choice(sq_8192)))
     eeeee50.delete(0, END)
     eeeee50.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeee51.delete(0, END)
     eeeee51.insert(0, str(random.choice(sq_8192)))
     eeeee52.delete(0, END)
@@ -916,8 +915,7 @@ def mk_random():
     eeeee58.insert(0, str(random.choice(sq_8192)))
     eeeee59.delete(0, END)
     eeeee59.insert(0, str(random.choice(sq_8192)))
-#70end500
-#
+#70end
     eeeeee0.delete(0, END)
     eeeeee0.insert(0, str(random.choice(sq_8192)))
     eeeeee1.delete(0, END)
@@ -940,7 +938,7 @@ def mk_random():
     eeeeee9.insert(0, str(random.choice(sq_8192)))
     eeeeee10.delete(0, END)
     eeeeee10.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee11.delete(0, END)
     eeeeee11.insert(0, str(random.choice(sq_8192)))
     eeeeee12.delete(0, END)
@@ -961,7 +959,7 @@ def mk_random():
     eeeeee19.insert(0, str(random.choice(sq_8192)))
     eeeeee20.delete(0, END)
     eeeeee20.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee21.delete(0, END)
     eeeeee21.insert(0, str(random.choice(sq_8192)))
     eeeeee22.delete(0, END)
@@ -982,7 +980,7 @@ def mk_random():
     eeeeee29.insert(0, str(random.choice(sq_8192)))
     eeeeee30.delete(0, END)
     eeeeee30.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee31.delete(0, END)
     eeeeee31.insert(0, str(random.choice(sq_8192)))
     eeeeee32.delete(0, END)
@@ -1003,7 +1001,7 @@ def mk_random():
     eeeeee39.insert(0, str(random.choice(sq_8192)))
     eeeeee40.delete(0, END)
     eeeeee40.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee41.delete(0, END)
     eeeeee41.insert(0, str(random.choice(sq_8192)))
     eeeeee42.delete(0, END)
@@ -1024,7 +1022,7 @@ def mk_random():
     eeeeee49.insert(0, str(random.choice(sq_8192)))
     eeeeee50.delete(0, END)
     eeeeee50.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee51.delete(0, END)
     eeeeee51.insert(0, str(random.choice(sq_8192)))
     eeeeee52.delete(0, END)
@@ -1045,7 +1043,7 @@ def mk_random():
     eeeeee59.insert(0, str(random.choice(sq_8192)))
     eeeeee60.delete(0, END)
     eeeeee60.insert(0, str(random.choice(sq_8192)))
-    #
+#
     eeeeee61.delete(0, END)
     eeeeee61.insert(0, str(random.choice(sq_8192)))
     eeeeee62.delete(0, END)

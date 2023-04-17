@@ -2851,7 +2851,7 @@ def change():
     del gen_code[500:1000]
     print(len(gen_code))
 
-# frame for getting text and showing it_____________________________________________________________________________
+# frame for getting text and showing it
 
 tog_frame = Frame(root)
 tog_frame.grid(row=10, column=0, sticky=E, rowspan=10)
