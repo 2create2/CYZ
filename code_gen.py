@@ -1,3 +1,22 @@
+'''
+CYZ (encode), CYZ (decode) and CYZ (code_gen)
+Copyright (C) 2023  Morgan Johnstone
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+'''
+
 #code gen for Code Your Zero
 from tkinter import *
 from temp import sq_8192
@@ -12,6 +31,7 @@ import random
 #user generated code
 gen_code = []
 
+#use of random, change later
 def mk_random():
     e0.delete(0, END)
     e0.insert(0, str(random.choice(sq_8192)))
@@ -1577,8 +1597,9 @@ def mk_set():
     gen_code.append(eeeeee67.get())
     gen_code.append(eeeeee68.get())
     gen_code.append(eeeeee69.get())
-    
-    print(len(gen_code))
+
+    #print what is left
+    #print(len(gen_code))
 
     #counting message +=
     global count
@@ -1589,11 +1610,7 @@ def mk_set():
 def write_nw():
     with open('temp_1.py', 'w') as f:
         f.write("gen_code = "+str(gen_code))
-    '''
-    n_file = open(temp_1, 'w')
-    x_m = gen_code.get()
-    n_file.writelines("gen_code = ["+x_m+"]")
-    '''
+
     if f is None:
         return
 #frame for buttons
@@ -1653,7 +1670,7 @@ f_4.grid(row=2, column=1, padx=5, pady= 5)
 f_5= LabelFrame(root, text = 'Entries')
 f_5.grid(row=2, column=2, padx=5, pady= 5)
 
-#Entry boxes 0-99 (100)
+#Entry boxes (100)
 
 e0 = Entry(f_0, width=13, bg = 'black', fg = 'green')
 e0.grid(row=0, column=0)
@@ -1955,7 +1972,7 @@ e98.grid(row=19, column=3)
 e99 = Entry(f_0, width=13, bg = 'black', fg = 'green')
 e99.grid(row=19, column=4)
 
-#100(300)
+#200
 
 ee0 = Entry(f_1, width=13, bg = 'black', fg = 'green')
 ee0.grid(row=0, column=0)
@@ -2257,7 +2274,7 @@ ee98.grid(row=19, column=3)
 ee99 = Entry(f_1, width=13, bg = 'black', fg = 'green')
 ee99.grid(row=19, column=4)
 
-#Entry boxes 199-299 (100)
+#300
 
 eee0 = Entry(f_2, width=13, bg = 'black', fg = 'green')
 eee0.grid(row=0, column=0)
@@ -2558,7 +2575,9 @@ eee98.grid(row=19, column=3)
 
 eee99 = Entry(f_2, width=13, bg = 'black', fg = 'green')
 eee99.grid(row=19, column=4)
-#3
+
+#370
+
 eeee0 = Entry(f_3, width=13, bg = 'black', fg = 'green')
 eeee0.grid(row=0, column=0)
 
@@ -2768,7 +2787,9 @@ eeee68.grid(row=13, column=3)
 
 eeee69 = Entry(f_3, width=13, bg = 'black', fg = 'green')
 eeee69.grid(row=13, column=4)
-#______________________________________________________________________4
+
+#430
+
 eeeee0 = Entry(f_4, width=13, bg = 'black', fg = 'green')
 eeeee0.grid(row=0, column=0)
 
@@ -2948,7 +2969,9 @@ eeeee58.grid(row=11, column=3)
 
 eeeee59 = Entry(f_4, width=13, bg = 'black', fg = 'green')
 eeeee59.grid(row=11, column=4)
-#5
+
+#500
+
 eeeeee0 = Entry(f_5, width=13, bg = 'black', fg = 'green')
 eeeeee0.grid(row=0, column=0)
 
@@ -3158,8 +3181,5 @@ eeeeee68.grid(row=13, column=3)
 
 eeeeee69 = Entry(f_5, width=13, bg = 'black', fg = 'green')
 eeeeee69.grid(row=13, column=4)
-
-
-
 
 root.mainloop()

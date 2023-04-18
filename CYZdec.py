@@ -1,5 +1,5 @@
 '''
-CYZ (encode) and CYZ (decode)
+CYZ (encode), CYZ (decode) and CYZ (code_gen)
 Copyright (C) 2023  Morgan Johnstone
 
 This program is free software; you can redistribute it and/or
