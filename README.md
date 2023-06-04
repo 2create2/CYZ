@@ -47,3 +47,17 @@ If you see a bug or have a suggestion, please use the Github Issues tab.
 Special thanks to <b>John Elder</b> from <i>Codemy.com</i> (many hours spent, sometimes 
 repeatedly, watching his videos)
 
+<h3>Screenshots(will vary)</h3>
+<b>CYZ (encode)</b>
+
+![Screen_CYZ_enc](https://github.com/2create2/CYZ/assets/130288302/8506c759-6e32-4554-942e-90a6c081fb8e)
+
+<b>CYZ (decode)</b>
+
+![Screen_CYZ_dec](https://github.com/2create2/CYZ/assets/130288302/1bc455ab-0341-49ca-8b97-52c694ba86b2)
+
+<b>CYZ (Code_Gen)</b>
+
+![Screen_CYZ_Code_Gen](https://github.com/2create2/CYZ/assets/130288302/75daf579-67f1-40e5-bf3e-4f44d726f1e7)
+
+
